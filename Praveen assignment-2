@@ -1,0 +1,27 @@
+
+
+import math
+
+l=[]
+
+d={}
+
+n1=int(input('enter the starting value : '))
+
+n2=int(input('enter the ending value : '))
+
+for i in range(n1,n2):
+
+    l.append(i)
+
+    root = math.sqrt(i)
+
+    if int(root+0.5)**2==i:
+
+        d[i]='yes'
+
+    else:
+
+        d[i]='no'
+
+print(d)
