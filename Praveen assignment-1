@@ -1,0 +1,23 @@
+1.
+
+l=[]
+
+d={}
+
+n1=int(input('enter the starting value : '))
+
+n2=int(input('enter the starting value : '))
+
+for i in range(n1,n2):
+
+    l.append(i)
+
+    if i%2==0:
+
+        d[i]='yes'
+
+    else:
+
+        d[i]='no'
+
+print(d)
